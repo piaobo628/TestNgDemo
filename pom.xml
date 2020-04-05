@@ -7,6 +7,7 @@
     <groupId>TestNgDemo</groupId>
     <artifactId>TestNgDemo</artifactId>
     <version>1.0-SNAPSHOT</version>
+
 <dependencies>
     <!-- https://mvnrepository.com/artifact/org.testng/testng -->
     <dependency>
