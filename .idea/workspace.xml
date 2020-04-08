@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9b5a35c9-c3e2-4f20-88db-94f1dd8db544" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestNgDemo.iml" afterPath="$PROJECT_DIR$/TestNgDemo.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/testNg.java" afterPath="$PROJECT_DIR$/src/main/java/testNg.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testng.xml" afterPath="$PROJECT_DIR$/testng.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,7 +20,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="0">
               <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
               <folding />
             </state>
@@ -30,10 +30,12 @@
       <file leaf-file-name="testNg.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/testNg.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="18" />
+            <state relative-caret-position="178">
+              <caret line="47" column="17" lean-forward="false" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1456#1457#0" expanded="true" />
+                <element signature="e#1517#1518#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -42,8 +44,8 @@
       <file leaf-file-name="testng.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+            <state relative-caret-position="57">
+              <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -80,8 +82,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/src/main/java/testNg.java" />
+        <option value="$PROJECT_DIR$/testng.xml" />
       </list>
     </option>
   </component>
@@ -142,24 +144,6 @@
               <item name="TestNgDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="TestNgDemo" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="TestNgDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestNgDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TestNgDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestNgDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TestNgDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestNgDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -201,23 +185,23 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="SUITE" />
       <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" value="" />
       <option name="ANNOTATION_TYPE" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
       <envs />
       <properties />
       <listeners />
@@ -354,29 +338,44 @@
       <workItem from="1586064564409" duration="7128000" />
       <workItem from="1586143218527" duration="1596000" />
       <workItem from="1586145019623" duration="1445000" />
-      <workItem from="1586146636617" duration="934000" />
+      <workItem from="1586146636617" duration="7677000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="F__Workspace_TestNgDemo_testng_xml - 2020.04.06 at 12h 25m 13s.xml">
+    <history-entry file="F__Workspace_TestNgDemo_testng_xml - 2020.04.06 at 12h 41m 57s.xml">
       <configuration name="F:/Workspace/TestNgDemo/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="F__Workspace_TestNgDemo_testng_xml - 2020.04.06 at 12h 27m 29s.xml">
+    <history-entry file="F__Workspace_TestNgDemo_testng_xml - 2020.04.06 at 12h 42m 21s.xml">
       <configuration name="F:/Workspace/TestNgDemo/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="F__Workspace_TestNgDemo_testng_xml - 2020.04.06 at 12h 32m 17s.xml">
+    <history-entry file="F__Workspace_TestNgDemo_testng_xml - 2020.04.06 at 13h 05m 50s.xml">
       <configuration name="F:/Workspace/TestNgDemo/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="F__Workspace_TestNgDemo_testng_xml - 2020.04.06 at 12h 32m 44s.xml">
+    <history-entry file="F__Workspace_TestNgDemo_testng_xml - 2020.04.06 at 13h 06m 22s.xml">
       <configuration name="F:/Workspace/TestNgDemo/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="testNg - 2020.04.06 at 12h 05m 20s.xml">
-      <configuration name="testNg" configurationId="TestNG" />
+    <history-entry file="F__Workspace_TestNgDemo_testng_xml - 2020.04.06 at 16h 01m 54s.xml">
+      <configuration name="F:/Workspace/TestNgDemo/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="F__Workspace_TestNgDemo_testng_xml - 2020.04.06 at 16h 04m 24s.xml">
+      <configuration name="F:/Workspace/TestNgDemo/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="F__Workspace_TestNgDemo_testng_xml - 2020.04.06 at 16h 04m 55s.xml">
+      <configuration name="F:/Workspace/TestNgDemo/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="F__Workspace_TestNgDemo_testng_xml - 2020.04.06 at 16h 27m 42s.xml">
+      <configuration name="F:/Workspace/TestNgDemo/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="F__Workspace_TestNgDemo_testng_xml - 2020.04.06 at 17h 08m 22s.xml">
+      <configuration name="F:/Workspace/TestNgDemo/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="F__Workspace_TestNgDemo_testng_xml - 2020.04.06 at 17h 10m 46s.xml">
+      <configuration name="F:/Workspace/TestNgDemo/testng.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11103000" />
+    <option name="totallyTimeSpent" value="17846000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -390,8 +389,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3848684" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3618421" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -444,6 +443,8 @@
           <caret line="30" column="30" lean-forward="true" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1456#1457#0" expanded="true" />
+            <element signature="e#1517#1518#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -462,6 +463,8 @@
           <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1456#1457#0" expanded="true" />
+            <element signature="e#1517#1518#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -480,6 +483,8 @@
           <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1456#1457#0" expanded="true" />
+            <element signature="e#1517#1518#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -505,16 +510,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.1.0/testng-7.1.0.jar!/org/testng/Assert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-456">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="0">
           <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
           <folding />
         </state>
@@ -528,20 +526,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.1.0/testng-7.1.0.jar!/org/testng/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding>
+            <element signature="e#1456#1457#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-output/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-532">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        <state relative-caret-position="57">
+          <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/testNg.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="18" />
+        <state relative-caret-position="178">
+          <caret line="47" column="17" lean-forward="false" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1456#1457#0" expanded="true" />
+            <element signature="e#1517#1518#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="89" started-at="2020-04-06T17:10:46 CST" finished-at="2020-04-06T17:10:46 CST">
+    <groups>
+    </groups>
+    <test name="F:/Workspace/TestNgDemo" duration-ms="89" started-at="2020-04-06T17:10:46 CST" finished-at="2020-04-06T17:10:46 CST">
+      <class name="testNg">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testNg@121b0a2]" name="beforeClass" is-config="true" duration-ms="15" started-at="2020-04-06T17:10:46 CST" finished-at="2020-04-06T17:10:46 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="sout(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testNg@121b0a2]" name="sout" duration-ms="1" started-at="2020-04-06T17:10:46 CST" data-provider="user" finished-at="2020-04-06T17:10:46 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[账户不能为空]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sout -->
+        <test-method status="PASS" signature="sout(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testNg@121b0a2]" name="sout" duration-ms="1" started-at="2020-04-06T17:10:46 CST" data-provider="user" finished-at="2020-04-06T17:10:46 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[密码错误]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sout -->
+        <test-method status="PASS" signature="sout(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testNg@121b0a2]" name="sout" duration-ms="0" started-at="2020-04-06T17:10:46 CST" data-provider="user" finished-at="2020-04-06T17:10:46 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[密码不能为空]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sout -->
+        <test-method status="PASS" signature="testcase2()[pri:0, instance:testNg@121b0a2]" name="testcase2" duration-ms="3" started-at="2020-04-06T17:10:46 CST" finished-at="2020-04-06T17:10:46 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase2 -->
+        <test-method status="PASS" signature="testcase3()[pri:0, instance:testNg@121b0a2]" name="testcase3" duration-ms="1" started-at="2020-04-06T17:10:46 CST" finished-at="2020-04-06T17:10:46 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase3 -->
+        <test-method status="PASS" signature="testcase4(java.lang.String, java.lang.String)[pri:0, instance:testNg@121b0a2]" name="testcase4" duration-ms="0" started-at="2020-04-06T17:10:46 CST" finished-at="2020-04-06T17:10:46 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4567890]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase4 -->
+        <test-method status="PASS" signature="testcase1()[pri:1, instance:testNg@121b0a2]" name="testcase1" duration-ms="1" started-at="2020-04-06T17:10:46 CST" finished-at="2020-04-06T17:10:46 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testNg@121b0a2]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-04-06T17:10:46 CST" finished-at="2020-04-06T17:10:46 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testNg -->
+    </test> <!-- F:/Workspace/TestNgDemo -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
