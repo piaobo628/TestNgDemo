@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name="groupsuite">
+    <test name="grouptest">
+        <classes>
+            <classs name="com.testng.core.Groups.groupDemo"/>
+        </classes>
+    </test>
+</suite>
