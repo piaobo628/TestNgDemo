@@ -33,7 +33,6 @@ public class testNg {
         System.out.println("执行成功----------------------------");
     }
 
-    // @Parameters必须写在@Test前面
     @Parameters({"parameter1","parameter2"})
     @Test
     /**

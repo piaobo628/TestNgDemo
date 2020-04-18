@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="groupsuite">
     <test name="grouptest">
+        <groups>
+            <run>
+                <include name="ssss2"/>
+            </run>
+        </groups>
         <classes>
-            <classs name="com.testng.core.Groups.groupDemo"/>
+            <class name="com.testng.core.Groups.groupDemo"/>
         </classes>
     </test>
 </suite>
