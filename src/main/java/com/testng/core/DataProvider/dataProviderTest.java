@@ -14,7 +14,7 @@ public class dataProviderTest {
     public void dataTest2(String name,int age){
         System.out.println("dataTest2的："+"名字"+name+" ;年龄"+age);
     }
-    @DataProvider(name = "data")
+    @DataProvider
     public Object[][] dataProvider(Method method){
         Object[][] objects=null;
         if(method.getName().equals("dataTest1")) {

@@ -1,0 +1,19 @@
+[
+  {
+    "description":"这是一个post的mocoDemo",
+    "request":{
+      "uri":"/post/demo",
+      "method":"post",
+      "json":{
+        "name":"LHH",
+        "age":"30"
+      }
+    },
+    "response":{
+        "json":{
+          "status":"200",
+          "msg":"请求成功！！！！！"
+        }
+      }
+    }
+]
